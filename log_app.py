@@ -1,7 +1,6 @@
 # Stremlit Deployment as log-app.py
 
 import streamlit as st
-import joblib
 import numpy as np
 
 model= joblib.load("logistic_model.pkl")
